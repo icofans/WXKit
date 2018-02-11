@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F76AF4F820303E52004454F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76AF4F620303E52004454F4 /* Main.storyboard */; };
+		F76AF4FA20303E52004454F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76AF4F920303E52004454F4 /* Assets.xcassets */; };
+		F76AF4FD20303E52004454F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76AF4FB20303E52004454F4 /* LaunchScreen.storyboard */; };
+		F76AF50020303E52004454F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF4FF20303E52004454F4 /* main.m */; };
+		F76AF50A20303E52004454F4 /* WXKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF50920303E52004454F4 /* WXKitDemoTests.m */; };
+		F76AF51520303E52004454F4 /* WXKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF51420303E52004454F4 /* WXKitDemoUITests.m */; };
+		F76AF5BB2030415D004454F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5AE2030415C004454F4 /* ViewController.m */; };
+		F76AF5BC2030415D004454F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5BA2030415D004454F4 /* AppDelegate.m */; };
+		F76AF5C2203041C1004454F4 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5B12030415C004454F4 /* AViewController.m */; };
+		F76AF5C3203041C1004454F4 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5B32030415C004454F4 /* BViewController.m */; };
+		F76AF5C4203041C1004454F4 /* CategroyController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5B52030415C004454F4 /* CategroyController.m */; };
+		F76AF5C5203041C1004454F4 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5B72030415C004454F4 /* CViewController.m */; };
+		F76AF5C6203041C1004454F4 /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5B92030415C004454F4 /* DViewController.m */; };
+		F76AF5C7203041C5004454F4 /* ComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5A92030415C004454F4 /* ComponentViewController.m */; };
+		F76AF5C8203041CA004454F4 /* UtilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5AC2030415C004454F4 /* UtilViewController.m */; };
+		F76AF5D42030458F004454F4 /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5D32030458F004454F4 /* EViewController.m */; };
+		F76AF5F320304DFE004454F4 /* NSArray+WXSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5DA203048E4004454F4 /* NSArray+WXSafe.m */; };
+		F76AF5F420304DFE004454F4 /* UIButton+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5DC203048E4004454F4 /* UIButton+WXExtension.m */; };
+		F76AF5F520304DFE004454F4 /* UIColor+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5DE203048E4004454F4 /* UIColor+WXExtension.m */; };
+		F76AF5F620304DFE004454F4 /* UIImage+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5E0203048E4004454F4 /* UIImage+WXExtension.m */; };
+		F76AF5F720304DFE004454F4 /* UILabel+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5E2203048E4004454F4 /* UILabel+WXExtension.m */; };
+		F76AF5F820304DFE004454F4 /* UITableView+WXEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5E4203048E4004454F4 /* UITableView+WXEmpty.m */; };
+		F76AF5F920304DFE004454F4 /* UIViewController+WXMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5E6203048E4004454F4 /* UIViewController+WXMediator.m */; };
+		F76AF5FA20304E35004454F4 /* WXPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5ED203048E5004454F4 /* WXPopupView.m */; };
+		F76AF5FB20304E3A004454F4 /* WXAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5F0203048E5004454F4 /* WXAudioTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F76AF50620303E52004454F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76AF4E520303E52004454F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76AF4EC20303E52004454F4;
+			remoteInfo = WXKitDemo;
+		};
+		F76AF51120303E52004454F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76AF4E520303E52004454F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76AF4EC20303E52004454F4;
+			remoteInfo = WXKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F76AF4ED20303E52004454F4 /* WXKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76AF4F720303E52004454F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76AF4F920303E52004454F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76AF4FC20303E52004454F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F76AF4FE20303E52004454F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76AF4FF20303E52004454F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F76AF50520303E52004454F4 /* WXKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76AF50920303E52004454F4 /* WXKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXKitDemoTests.m; sourceTree = "<group>"; };
+		F76AF50B20303E52004454F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76AF51020303E52004454F4 /* WXKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76AF51420303E52004454F4 /* WXKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXKitDemoUITests.m; sourceTree = "<group>"; };
+		F76AF51620303E52004454F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76AF5A62030415C004454F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F76AF5A82030415C004454F4 /* ComponentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentViewController.h; sourceTree = "<group>"; };
+		F76AF5A92030415C004454F4 /* ComponentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentViewController.m; sourceTree = "<group>"; };
+		F76AF5AB2030415C004454F4 /* UtilViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilViewController.h; sourceTree = "<group>"; };
+		F76AF5AC2030415C004454F4 /* UtilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilViewController.m; sourceTree = "<group>"; };
+		F76AF5AD2030415C004454F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F76AF5AE2030415C004454F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F76AF5B02030415C004454F4 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		F76AF5B12030415C004454F4 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		F76AF5B22030415C004454F4 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		F76AF5B32030415C004454F4 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		F76AF5B42030415C004454F4 /* CategroyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategroyController.h; sourceTree = "<group>"; };
+		F76AF5B52030415C004454F4 /* CategroyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategroyController.m; sourceTree = "<group>"; };
+		F76AF5B62030415C004454F4 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		F76AF5B72030415C004454F4 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		F76AF5B82030415C004454F4 /* DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		F76AF5B92030415C004454F4 /* DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		F76AF5BA2030415D004454F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F76AF5D22030458F004454F4 /* EViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
+		F76AF5D32030458F004454F4 /* EViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
+		F76AF5D520304737004454F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F76AF5D7203048E4004454F4 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F76AF5D9203048E4004454F4 /* NSArray+WXSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+WXSafe.h"; sourceTree = "<group>"; };
+		F76AF5DA203048E4004454F4 /* NSArray+WXSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WXSafe.m"; sourceTree = "<group>"; };
+		F76AF5DB203048E4004454F4 /* UIButton+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXExtension.h"; sourceTree = "<group>"; };
+		F76AF5DC203048E4004454F4 /* UIButton+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXExtension.m"; sourceTree = "<group>"; };
+		F76AF5DD203048E4004454F4 /* UIColor+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXExtension.h"; sourceTree = "<group>"; };
+		F76AF5DE203048E4004454F4 /* UIColor+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXExtension.m"; sourceTree = "<group>"; };
+		F76AF5DF203048E4004454F4 /* UIImage+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WXExtension.h"; sourceTree = "<group>"; };
+		F76AF5E0203048E4004454F4 /* UIImage+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WXExtension.m"; sourceTree = "<group>"; };
+		F76AF5E1203048E4004454F4 /* UILabel+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WXExtension.h"; sourceTree = "<group>"; };
+		F76AF5E2203048E4004454F4 /* UILabel+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WXExtension.m"; sourceTree = "<group>"; };
+		F76AF5E3203048E4004454F4 /* UITableView+WXEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+WXEmpty.h"; sourceTree = "<group>"; };
+		F76AF5E4203048E4004454F4 /* UITableView+WXEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WXEmpty.m"; sourceTree = "<group>"; };
+		F76AF5E5203048E4004454F4 /* UIViewController+WXMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXMediator.h"; sourceTree = "<group>"; };
+		F76AF5E6203048E4004454F4 /* UIViewController+WXMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXMediator.m"; sourceTree = "<group>"; };
+		F76AF5E7203048E4004454F4 /* WXCategroy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCategroy.h; sourceTree = "<group>"; };
+		F76AF5E9203048E5004454F4 /* WXKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXKitMacro.h; sourceTree = "<group>"; };
+		F76AF5EB203048E5004454F4 /* WXComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
+		F76AF5EC203048E5004454F4 /* WXPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXPopupView.h; sourceTree = "<group>"; };
+		F76AF5ED203048E5004454F4 /* WXPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXPopupView.m; sourceTree = "<group>"; };
+		F76AF5EF203048E5004454F4 /* WXAudioTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAudioTool.h; sourceTree = "<group>"; };
+		F76AF5F0203048E5004454F4 /* WXAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAudioTool.m; sourceTree = "<group>"; };
+		F76AF5F1203048E5004454F4 /* WXUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
+		F76AF5F2203048E5004454F4 /* WXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WXKit.h; path = WXKit/WXKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76AF4EA20303E52004454F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76AF50220303E52004454F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76AF50D20303E52004454F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F76AF4E420303E52004454F4 = {
+			isa = PBXGroup;
+			children = (
+				F76AF58820304123004454F4 /* WXKit */,
+				F76AF4EF20303E52004454F4 /* WXKitDemo */,
+				F76AF50820303E52004454F4 /* WXKitDemoTests */,
+				F76AF51320303E52004454F4 /* WXKitDemoUITests */,
+				F76AF4EE20303E52004454F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76AF4EE20303E52004454F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF4ED20303E52004454F4 /* WXKitDemo.app */,
+				F76AF50520303E52004454F4 /* WXKitDemoTests.xctest */,
+				F76AF51020303E52004454F4 /* WXKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76AF4EF20303E52004454F4 /* WXKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5A62030415C004454F4 /* AppDelegate.h */,
+				F76AF5BA2030415D004454F4 /* AppDelegate.m */,
+				F76AF5AD2030415C004454F4 /* ViewController.h */,
+				F76AF5AE2030415C004454F4 /* ViewController.m */,
+				F76AF5AF2030415C004454F4 /* Categories */,
+				F76AF5A72030415C004454F4 /* Components */,
+				F76AF5AA2030415C004454F4 /* Utils */,
+				F76AF4F620303E52004454F4 /* Main.storyboard */,
+				F76AF4F920303E52004454F4 /* Assets.xcassets */,
+				F76AF4FB20303E52004454F4 /* LaunchScreen.storyboard */,
+				F76AF4FE20303E52004454F4 /* Info.plist */,
+				F76AF4FF20303E52004454F4 /* main.m */,
+				F76AF5D520304737004454F4 /* PrefixHeader.pch */,
+			);
+			path = WXKitDemo;
+			sourceTree = "<group>";
+		};
+		F76AF50820303E52004454F4 /* WXKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF50920303E52004454F4 /* WXKitDemoTests.m */,
+				F76AF50B20303E52004454F4 /* Info.plist */,
+			);
+			path = WXKitDemoTests;
+			sourceTree = "<group>";
+		};
+		F76AF51320303E52004454F4 /* WXKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF51420303E52004454F4 /* WXKitDemoUITests.m */,
+				F76AF51620303E52004454F4 /* Info.plist */,
+			);
+			path = WXKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		F76AF58820304123004454F4 /* WXKit */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5F2203048E5004454F4 /* WXKit.h */,
+				F76AF5E8203048E5004454F4 /* Base */,
+				F76AF5D8203048E4004454F4 /* Categories */,
+				F76AF5EA203048E5004454F4 /* Components */,
+				F76AF5EE203048E5004454F4 /* Utils */,
+				F76AF5D6203048E4004454F4 /* Assets */,
+			);
+			name = WXKit;
+			path = ../../WXKit;
+			sourceTree = "<group>";
+		};
+		F76AF5A72030415C004454F4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5A82030415C004454F4 /* ComponentViewController.h */,
+				F76AF5A92030415C004454F4 /* ComponentViewController.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F76AF5AA2030415C004454F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5AB2030415C004454F4 /* UtilViewController.h */,
+				F76AF5AC2030415C004454F4 /* UtilViewController.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F76AF5AF2030415C004454F4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5B42030415C004454F4 /* CategroyController.h */,
+				F76AF5B52030415C004454F4 /* CategroyController.m */,
+				F76AF5B02030415C004454F4 /* AViewController.h */,
+				F76AF5B12030415C004454F4 /* AViewController.m */,
+				F76AF5B22030415C004454F4 /* BViewController.h */,
+				F76AF5B32030415C004454F4 /* BViewController.m */,
+				F76AF5B62030415C004454F4 /* CViewController.h */,
+				F76AF5B72030415C004454F4 /* CViewController.m */,
+				F76AF5B82030415C004454F4 /* DViewController.h */,
+				F76AF5B92030415C004454F4 /* DViewController.m */,
+				F76AF5D22030458F004454F4 /* EViewController.h */,
+				F76AF5D32030458F004454F4 /* EViewController.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F76AF5D6203048E4004454F4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5D7203048E4004454F4 /* .gitkeep */,
+			);
+			name = Assets;
+			path = WXKit/Assets;
+			sourceTree = "<group>";
+		};
+		F76AF5D8203048E4004454F4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5D9203048E4004454F4 /* NSArray+WXSafe.h */,
+				F76AF5DA203048E4004454F4 /* NSArray+WXSafe.m */,
+				F76AF5DB203048E4004454F4 /* UIButton+WXExtension.h */,
+				F76AF5DC203048E4004454F4 /* UIButton+WXExtension.m */,
+				F76AF5DD203048E4004454F4 /* UIColor+WXExtension.h */,
+				F76AF5DE203048E4004454F4 /* UIColor+WXExtension.m */,
+				F76AF5DF203048E4004454F4 /* UIImage+WXExtension.h */,
+				F76AF5E0203048E4004454F4 /* UIImage+WXExtension.m */,
+				F76AF5E1203048E4004454F4 /* UILabel+WXExtension.h */,
+				F76AF5E2203048E4004454F4 /* UILabel+WXExtension.m */,
+				F76AF5E3203048E4004454F4 /* UITableView+WXEmpty.h */,
+				F76AF5E4203048E4004454F4 /* UITableView+WXEmpty.m */,
+				F76AF5E5203048E4004454F4 /* UIViewController+WXMediator.h */,
+				F76AF5E6203048E4004454F4 /* UIViewController+WXMediator.m */,
+				F76AF5E7203048E4004454F4 /* WXCategroy.h */,
+			);
+			name = Categories;
+			path = WXKit/Categories;
+			sourceTree = "<group>";
+		};
+		F76AF5E8203048E5004454F4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5E9203048E5004454F4 /* WXKitMacro.h */,
+			);
+			name = Base;
+			path = WXKit/Base;
+			sourceTree = "<group>";
+		};
+		F76AF5EA203048E5004454F4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5EB203048E5004454F4 /* WXComponent.h */,
+				F76AF5EC203048E5004454F4 /* WXPopupView.h */,
+				F76AF5ED203048E5004454F4 /* WXPopupView.m */,
+			);
+			name = Components;
+			path = WXKit/Components;
+			sourceTree = "<group>";
+		};
+		F76AF5EE203048E5004454F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF5EF203048E5004454F4 /* WXAudioTool.h */,
+				F76AF5F0203048E5004454F4 /* WXAudioTool.m */,
+				F76AF5F1203048E5004454F4 /* WXUtil.h */,
+			);
+			name = Utils;
+			path = WXKit/Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76AF4EC20303E52004454F4 /* WXKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76AF51920303E52004454F4 /* Build configuration list for PBXNativeTarget "WXKitDemo" */;
+			buildPhases = (
+				F76AF4E920303E52004454F4 /* Sources */,
+				F76AF4EA20303E52004454F4 /* Frameworks */,
+				F76AF4EB20303E52004454F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXKitDemo;
+			productName = WXKitDemo;
+			productReference = F76AF4ED20303E52004454F4 /* WXKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F76AF50420303E52004454F4 /* WXKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76AF51C20303E52004454F4 /* Build configuration list for PBXNativeTarget "WXKitDemoTests" */;
+			buildPhases = (
+				F76AF50120303E52004454F4 /* Sources */,
+				F76AF50220303E52004454F4 /* Frameworks */,
+				F76AF50320303E52004454F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76AF50720303E52004454F4 /* PBXTargetDependency */,
+			);
+			name = WXKitDemoTests;
+			productName = WXKitDemoTests;
+			productReference = F76AF50520303E52004454F4 /* WXKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F76AF50F20303E52004454F4 /* WXKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76AF51F20303E52004454F4 /* Build configuration list for PBXNativeTarget "WXKitDemoUITests" */;
+			buildPhases = (
+				F76AF50C20303E52004454F4 /* Sources */,
+				F76AF50D20303E52004454F4 /* Frameworks */,
+				F76AF50E20303E52004454F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76AF51220303E52004454F4 /* PBXTargetDependency */,
+			);
+			name = WXKitDemoUITests;
+			productName = WXKitDemoUITests;
+			productReference = F76AF51020303E52004454F4 /* WXKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76AF4E520303E52004454F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					F76AF4EC20303E52004454F4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F76AF50420303E52004454F4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F76AF4EC20303E52004454F4;
+					};
+					F76AF50F20303E52004454F4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F76AF4EC20303E52004454F4;
+					};
+				};
+			};
+			buildConfigurationList = F76AF4E820303E52004454F4 /* Build configuration list for PBXProject "WXKitDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76AF4E420303E52004454F4;
+			productRefGroup = F76AF4EE20303E52004454F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76AF4EC20303E52004454F4 /* WXKitDemo */,
+				F76AF50420303E52004454F4 /* WXKitDemoTests */,
+				F76AF50F20303E52004454F4 /* WXKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76AF4EB20303E52004454F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76AF4FD20303E52004454F4 /* LaunchScreen.storyboard in Resources */,
+				F76AF4FA20303E52004454F4 /* Assets.xcassets in Resources */,
+				F76AF4F820303E52004454F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76AF50320303E52004454F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76AF50E20303E52004454F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76AF4E920303E52004454F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76AF5F320304DFE004454F4 /* NSArray+WXSafe.m in Sources */,
+				F76AF5C2203041C1004454F4 /* AViewController.m in Sources */,
+				F76AF5BB2030415D004454F4 /* ViewController.m in Sources */,
+				F76AF5D42030458F004454F4 /* EViewController.m in Sources */,
+				F76AF5C8203041CA004454F4 /* UtilViewController.m in Sources */,
+				F76AF5FA20304E35004454F4 /* WXPopupView.m in Sources */,
+				F76AF5F720304DFE004454F4 /* UILabel+WXExtension.m in Sources */,
+				F76AF5F620304DFE004454F4 /* UIImage+WXExtension.m in Sources */,
+				F76AF50020303E52004454F4 /* main.m in Sources */,
+				F76AF5F920304DFE004454F4 /* UIViewController+WXMediator.m in Sources */,
+				F76AF5C4203041C1004454F4 /* CategroyController.m in Sources */,
+				F76AF5FB20304E3A004454F4 /* WXAudioTool.m in Sources */,
+				F76AF5C7203041C5004454F4 /* ComponentViewController.m in Sources */,
+				F76AF5F520304DFE004454F4 /* UIColor+WXExtension.m in Sources */,
+				F76AF5F420304DFE004454F4 /* UIButton+WXExtension.m in Sources */,
+				F76AF5C3203041C1004454F4 /* BViewController.m in Sources */,
+				F76AF5F820304DFE004454F4 /* UITableView+WXEmpty.m in Sources */,
+				F76AF5BC2030415D004454F4 /* AppDelegate.m in Sources */,
+				F76AF5C5203041C1004454F4 /* CViewController.m in Sources */,
+				F76AF5C6203041C1004454F4 /* DViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76AF50120303E52004454F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76AF50A20303E52004454F4 /* WXKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76AF50C20303E52004454F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76AF51520303E52004454F4 /* WXKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F76AF50720303E52004454F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76AF4EC20303E52004454F4 /* WXKitDemo */;
+			targetProxy = F76AF50620303E52004454F4 /* PBXContainerItemProxy */;
+		};
+		F76AF51220303E52004454F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76AF4EC20303E52004454F4 /* WXKitDemo */;
+			targetProxy = F76AF51120303E52004454F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F76AF4F620303E52004454F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76AF4F720303E52004454F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F76AF4FB20303E52004454F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76AF4FC20303E52004454F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F76AF51720303E52004454F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F76AF51820303E52004454F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76AF51A20303E52004454F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GHMEWAMM;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WXKitDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/WXkit";
+				INFOPLIST_FILE = WXKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icofans.WXKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F76AF51B20303E52004454F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GHMEWAMM;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WXKitDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/WXkit";
+				INFOPLIST_FILE = WXKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icofans.WXKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F76AF51D20303E52004454F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GHMEWAMM;
+				INFOPLIST_FILE = WXKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icofans.WXKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXKitDemo.app/WXKitDemo";
+			};
+			name = Debug;
+		};
+		F76AF51E20303E52004454F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GHMEWAMM;
+				INFOPLIST_FILE = WXKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icofans.WXKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXKitDemo.app/WXKitDemo";
+			};
+			name = Release;
+		};
+		F76AF52020303E52004454F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GHMEWAMM;
+				INFOPLIST_FILE = WXKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icofans.WXKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WXKitDemo;
+			};
+			name = Debug;
+		};
+		F76AF52120303E52004454F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GHMEWAMM;
+				INFOPLIST_FILE = WXKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icofans.WXKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WXKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76AF4E820303E52004454F4 /* Build configuration list for PBXProject "WXKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76AF51720303E52004454F4 /* Debug */,
+				F76AF51820303E52004454F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76AF51920303E52004454F4 /* Build configuration list for PBXNativeTarget "WXKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76AF51A20303E52004454F4 /* Debug */,
+				F76AF51B20303E52004454F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76AF51C20303E52004454F4 /* Build configuration list for PBXNativeTarget "WXKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76AF51D20303E52004454F4 /* Debug */,
+				F76AF51E20303E52004454F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76AF51F20303E52004454F4 /* Build configuration list for PBXNativeTarget "WXKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76AF52020303E52004454F4 /* Debug */,
+				F76AF52120303E52004454F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76AF4E520303E52004454F4 /* Project object */;
+}
