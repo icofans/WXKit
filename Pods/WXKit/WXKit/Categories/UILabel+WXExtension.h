@@ -25,4 +25,9 @@
              maxWidth:(CGFloat)maxWidth
                  font:(UIFont *)font;
 
+/**
+ 获取单行文字以数组形式返回
+ */
+- (NSArray *)lineText:(NSString *)text;
+
 @end

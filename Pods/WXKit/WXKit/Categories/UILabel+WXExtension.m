@@ -45,6 +45,11 @@ static char kshowContentInsetsKey;
 }
 
 - (NSArray *)lineText:(NSString *)text
+{
+    return [self lineText:text maxWidth:0 font:nil];
+}
+
+- (NSArray *)lineText:(NSString *)text
              maxWidth:(CGFloat)maxWidth
                  font:(UIFont *)font
 {

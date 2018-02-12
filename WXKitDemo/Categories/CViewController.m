@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIImageView *imageV = [[UIImageView alloc] init];
+    imageV.frame = CGRectMake(0, 0, 100, 100);
+    imageV.center = self.view.center;
+    [self.view addSubview:imageV];
+    
+    // UIImage imageWithColor:
+    imageV.image = [UIImage imageWithColor:[UIColor redColor]];
 }
 
 - (void)didReceiveMemoryWarning {
