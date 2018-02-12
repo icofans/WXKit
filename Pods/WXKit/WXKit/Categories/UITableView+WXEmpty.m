@@ -6,7 +6,7 @@
 //
 
 #import "UITableView+WXEmpty.h"
-#import <objc/runtime.h>
+#import "WXKitMacro.h"
 
 static char WXShowErrorViewKey;
 static char WXShowLoadViewKey;
@@ -21,7 +21,9 @@ static char WXEmptyDescKey;
 
 - (void)setErrorImage:(UIImage *)errorImage
 {
-    
+    if (!errorImage) {
+        return ;
+    }
     objc_setAssociatedObject(self, &WXErrorImageKey, errorImage, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -55,7 +57,9 @@ static char WXEmptyDescKey;
 
 - (void)setEmptyImage:(UIImage *)emptyImage
 {
-    
+    if (!emptyImage) {
+        return ;
+    }
     objc_setAssociatedObject(self, &WXEmptyImageKey, emptyImage, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -86,14 +90,10 @@ static char WXEmptyDescKey;
 
 + (void)load
 {
-    // class_getInstanceMethod()
-    Method fromMethod = class_getInstanceMethod([self class], @selector(reloadData));
-    Method toMethod = class_getInstanceMethod([self class], @selector(wx_reloadData));
-    
-    // class_addMethod()
-    if (!class_addMethod([self class], @selector(reloadData), method_getImplementation(toMethod), method_getTypeEncoding(toMethod))) {
-        method_exchangeImplementations(fromMethod, toMethod);
-    }
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        wx_hook([self class], @selector(reloadData), @selector(wx_reloadData));
+    });
 }
 
 - (void)wx_reloadData

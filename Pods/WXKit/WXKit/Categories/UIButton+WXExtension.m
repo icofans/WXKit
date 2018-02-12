@@ -6,18 +6,7 @@
 //
 
 #import "UIButton+WXExtension.h"
-#import <objc/runtime.h>
-
-CG_INLINE void wx_hook(Class _class, SEL _originSelector, SEL _newSelector) {
-    Method oriMethod = class_getInstanceMethod(_class, _originSelector);
-    Method newMethod = class_getInstanceMethod(_class, _newSelector);
-    BOOL isAddedMethod = class_addMethod(_class, _originSelector, method_getImplementation(newMethod), method_getTypeEncoding(newMethod));
-    if (isAddedMethod) {
-        class_replaceMethod(_class, _newSelector, method_getImplementation(oriMethod), method_getTypeEncoding(oriMethod));
-    } else {
-        method_exchangeImplementations(oriMethod, newMethod);
-    }
-}
+#import "WXKitMacro.h"
 
 #define wx_objc_setter(key,value) objc_setAssociatedObject(self, key, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC)
 #define wx_objc_getter(key) objc_getAssociatedObject(self, key)
