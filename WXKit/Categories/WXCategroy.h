@@ -5,7 +5,6 @@
 //  Created by 王家强 on 2018/2/1.
 //
 
-#import "WXKitMacro.h"
 #import "UIButton+WXExtension.h"
 #import "UIColor+WXExtension.h"
 #import "UILabel+WXExtension.h"

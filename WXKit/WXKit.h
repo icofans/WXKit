@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
+#import "WXKitMacro.h"
 #import "WXUtil.h"
 #import "WXCategroy.h"
 #import "WXComponent.h"
