@@ -1,0 +1,24 @@
+PODS:
+  - WXKit (0.2.2):
+    - WXKit/Base (= 0.2.2)
+    - WXKit/Categories (= 0.2.2)
+    - WXKit/Components (= 0.2.2)
+    - WXKit/Utils (= 0.2.2)
+  - WXKit/Base (0.2.2)
+  - WXKit/Categories (0.2.2)
+  - WXKit/Components (0.2.2)
+  - WXKit/Utils (0.2.2)
+
+DEPENDENCIES:
+  - WXKit (from `./`)
+
+EXTERNAL SOURCES:
+  WXKit:
+    :path: ./
+
+SPEC CHECKSUMS:
+  WXKit: 33ec5bdebeede5ec25f0471460cb28c4a7564f39
+
+PODFILE CHECKSUM: 0da2e35c333c429f2eed5e78656d748d16520e49
+
+COCOAPODS: 1.2.0.beta.1

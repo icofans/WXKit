@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1641C35DD075675C5D40185 /* libPods-WXKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1744CB6BE882C423536AB8AE /* libPods-WXKitDemo.a */; };
 		F76AF4F820303E52004454F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76AF4F620303E52004454F4 /* Main.storyboard */; };
 		F76AF4FA20303E52004454F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76AF4F920303E52004454F4 /* Assets.xcassets */; };
 		F76AF4FD20303E52004454F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76AF4FB20303E52004454F4 /* LaunchScreen.storyboard */; };
@@ -23,15 +24,6 @@
 		F76AF5C7203041C5004454F4 /* ComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5A92030415C004454F4 /* ComponentViewController.m */; };
 		F76AF5C8203041CA004454F4 /* UtilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5AC2030415C004454F4 /* UtilViewController.m */; };
 		F76AF5D42030458F004454F4 /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5D32030458F004454F4 /* EViewController.m */; };
-		F7AC9A47203134630041E125 /* WXAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A442031345B0041E125 /* WXAudioTool.m */; };
-		F7AC9A48203134660041E125 /* WXPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A412031345B0041E125 /* WXPopupView.m */; };
-		F7AC9A492031346E0041E125 /* NSArray+WXSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A302031345B0041E125 /* NSArray+WXSafe.m */; };
-		F7AC9A4A2031346E0041E125 /* UIButton+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A322031345B0041E125 /* UIButton+WXExtension.m */; };
-		F7AC9A4B2031346E0041E125 /* UIColor+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A342031345B0041E125 /* UIColor+WXExtension.m */; };
-		F7AC9A4C2031346E0041E125 /* UIImage+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A362031345B0041E125 /* UIImage+WXExtension.m */; };
-		F7AC9A4D2031346E0041E125 /* UILabel+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A382031345B0041E125 /* UILabel+WXExtension.m */; };
-		F7AC9A4E2031346E0041E125 /* UITableView+WXEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A3A2031345B0041E125 /* UITableView+WXEmpty.m */; };
-		F7AC9A4F2031346E0041E125 /* UIViewController+WXMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A3C2031345B0041E125 /* UIViewController+WXMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1744CB6BE882C423536AB8AE /* libPods-WXKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E3443653FFDBE1CB640737 /* Pods-WXKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXKitDemo/Pods-WXKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D1FB99975B4002086FE9129C /* Pods-WXKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXKitDemo/Pods-WXKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F76AF4ED20303E52004454F4 /* WXKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76AF4F720303E52004454F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F76AF4F920303E52004454F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,31 +80,7 @@
 		F76AF5D22030458F004454F4 /* EViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
 		F76AF5D32030458F004454F4 /* EViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
 		F76AF5D520304737004454F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		F7AC9A22203132520041E125 /* WXKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WXKit.podspec; path = ../WXKit.podspec; sourceTree = "<group>"; };
-		F7AC9A2B2031345B0041E125 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		F7AC9A2D2031345B0041E125 /* WXKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXKitMacro.h; sourceTree = "<group>"; };
-		F7AC9A2F2031345B0041E125 /* NSArray+WXSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+WXSafe.h"; sourceTree = "<group>"; };
-		F7AC9A302031345B0041E125 /* NSArray+WXSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WXSafe.m"; sourceTree = "<group>"; };
-		F7AC9A312031345B0041E125 /* UIButton+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXExtension.h"; sourceTree = "<group>"; };
-		F7AC9A322031345B0041E125 /* UIButton+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXExtension.m"; sourceTree = "<group>"; };
-		F7AC9A332031345B0041E125 /* UIColor+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXExtension.h"; sourceTree = "<group>"; };
-		F7AC9A342031345B0041E125 /* UIColor+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXExtension.m"; sourceTree = "<group>"; };
-		F7AC9A352031345B0041E125 /* UIImage+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WXExtension.h"; sourceTree = "<group>"; };
-		F7AC9A362031345B0041E125 /* UIImage+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WXExtension.m"; sourceTree = "<group>"; };
-		F7AC9A372031345B0041E125 /* UILabel+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WXExtension.h"; sourceTree = "<group>"; };
-		F7AC9A382031345B0041E125 /* UILabel+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WXExtension.m"; sourceTree = "<group>"; };
-		F7AC9A392031345B0041E125 /* UITableView+WXEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+WXEmpty.h"; sourceTree = "<group>"; };
-		F7AC9A3A2031345B0041E125 /* UITableView+WXEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WXEmpty.m"; sourceTree = "<group>"; };
-		F7AC9A3B2031345B0041E125 /* UIViewController+WXMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXMediator.h"; sourceTree = "<group>"; };
-		F7AC9A3C2031345B0041E125 /* UIViewController+WXMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXMediator.m"; sourceTree = "<group>"; };
-		F7AC9A3D2031345B0041E125 /* WXCategroy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCategroy.h; sourceTree = "<group>"; };
-		F7AC9A3F2031345B0041E125 /* WXComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
-		F7AC9A402031345B0041E125 /* WXPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXPopupView.h; sourceTree = "<group>"; };
-		F7AC9A412031345B0041E125 /* WXPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXPopupView.m; sourceTree = "<group>"; };
-		F7AC9A432031345B0041E125 /* WXAudioTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAudioTool.h; sourceTree = "<group>"; };
-		F7AC9A442031345B0041E125 /* WXAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAudioTool.m; sourceTree = "<group>"; };
-		F7AC9A452031345B0041E125 /* WXUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
-		F7AC9A462031345B0041E125 /* WXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXKit.h; sourceTree = "<group>"; };
+		F7AC9A50203141190041E125 /* WXKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = WXKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1641C35DD075675C5D40185 /* libPods-WXKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,14 +109,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE4A060E49463738DC057817 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41E3443653FFDBE1CB640737 /* Pods-WXKitDemo.debug.xcconfig */,
+				D1FB99975B4002086FE9129C /* Pods-WXKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE748DCD6A11D36C65EA7C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1744CB6BE882C423536AB8AE /* libPods-WXKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F76AF4E420303E52004454F4 = {
 			isa = PBXGroup;
 			children = (
-				F7AC9A22203132520041E125 /* WXKit.podspec */,
+				F7AC9A50203141190041E125 /* WXKit.podspec */,
 				F76AF4EF20303E52004454F4 /* WXKitDemo */,
 				F76AF50820303E52004454F4 /* WXKitDemoTests */,
 				F76AF51320303E52004454F4 /* WXKitDemoUITests */,
 				F76AF4EE20303E52004454F4 /* Products */,
+				BE4A060E49463738DC057817 /* Pods */,
+				BE748DCD6A11D36C65EA7C0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,7 +152,6 @@
 		F76AF4EF20303E52004454F4 /* WXKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC9A292031345B0041E125 /* WXKit */,
 				F76AF5A62030415C004454F4 /* AppDelegate.h */,
 				F76AF5BA2030415D004454F4 /* AppDelegate.m */,
 				F76AF5AD2030415C004454F4 /* ViewController.h */,
@@ -234,78 +224,6 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		F7AC9A292031345B0041E125 /* WXKit */ = {
-			isa = PBXGroup;
-			children = (
-				F7AC9A2A2031345B0041E125 /* Assets */,
-				F7AC9A2C2031345B0041E125 /* Base */,
-				F7AC9A2E2031345B0041E125 /* Categories */,
-				F7AC9A3E2031345B0041E125 /* Components */,
-				F7AC9A422031345B0041E125 /* Utils */,
-				F7AC9A462031345B0041E125 /* WXKit.h */,
-			);
-			name = WXKit;
-			path = ../../WXKit;
-			sourceTree = "<group>";
-		};
-		F7AC9A2A2031345B0041E125 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				F7AC9A2B2031345B0041E125 /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		F7AC9A2C2031345B0041E125 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				F7AC9A2D2031345B0041E125 /* WXKitMacro.h */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		F7AC9A2E2031345B0041E125 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				F7AC9A2F2031345B0041E125 /* NSArray+WXSafe.h */,
-				F7AC9A302031345B0041E125 /* NSArray+WXSafe.m */,
-				F7AC9A312031345B0041E125 /* UIButton+WXExtension.h */,
-				F7AC9A322031345B0041E125 /* UIButton+WXExtension.m */,
-				F7AC9A332031345B0041E125 /* UIColor+WXExtension.h */,
-				F7AC9A342031345B0041E125 /* UIColor+WXExtension.m */,
-				F7AC9A352031345B0041E125 /* UIImage+WXExtension.h */,
-				F7AC9A362031345B0041E125 /* UIImage+WXExtension.m */,
-				F7AC9A372031345B0041E125 /* UILabel+WXExtension.h */,
-				F7AC9A382031345B0041E125 /* UILabel+WXExtension.m */,
-				F7AC9A392031345B0041E125 /* UITableView+WXEmpty.h */,
-				F7AC9A3A2031345B0041E125 /* UITableView+WXEmpty.m */,
-				F7AC9A3B2031345B0041E125 /* UIViewController+WXMediator.h */,
-				F7AC9A3C2031345B0041E125 /* UIViewController+WXMediator.m */,
-				F7AC9A3D2031345B0041E125 /* WXCategroy.h */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		F7AC9A3E2031345B0041E125 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				F7AC9A3F2031345B0041E125 /* WXComponent.h */,
-				F7AC9A402031345B0041E125 /* WXPopupView.h */,
-				F7AC9A412031345B0041E125 /* WXPopupView.m */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		F7AC9A422031345B0041E125 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				F7AC9A432031345B0041E125 /* WXAudioTool.h */,
-				F7AC9A442031345B0041E125 /* WXAudioTool.m */,
-				F7AC9A452031345B0041E125 /* WXUtil.h */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -313,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F76AF51920303E52004454F4 /* Build configuration list for PBXNativeTarget "WXKitDemo" */;
 			buildPhases = (
+				88C1D999877306AAB8CD42AB /* [CP] Check Pods Manifest.lock */,
 				F76AF4E920303E52004454F4 /* Sources */,
 				F76AF4EA20303E52004454F4 /* Frameworks */,
 				F76AF4EB20303E52004454F4 /* Resources */,
+				4A837036243C54163EFF7C81 /* [CP] Embed Pods Frameworks */,
+				5B52437FB13A4BF961C84706 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -434,30 +355,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A837036243C54163EFF7C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXKitDemo/Pods-WXKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B52437FB13A4BF961C84706 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXKitDemo/Pods-WXKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C1D999877306AAB8CD42AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F76AF4E920303E52004454F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F76AF5C2203041C1004454F4 /* AViewController.m in Sources */,
-				F7AC9A4A2031346E0041E125 /* UIButton+WXExtension.m in Sources */,
 				F76AF5BB2030415D004454F4 /* ViewController.m in Sources */,
 				F76AF5D42030458F004454F4 /* EViewController.m in Sources */,
-				F7AC9A4F2031346E0041E125 /* UIViewController+WXMediator.m in Sources */,
-				F7AC9A4B2031346E0041E125 /* UIColor+WXExtension.m in Sources */,
-				F7AC9A4C2031346E0041E125 /* UIImage+WXExtension.m in Sources */,
-				F7AC9A47203134630041E125 /* WXAudioTool.m in Sources */,
 				F76AF5C8203041CA004454F4 /* UtilViewController.m in Sources */,
 				F76AF50020303E52004454F4 /* main.m in Sources */,
-				F7AC9A4D2031346E0041E125 /* UILabel+WXExtension.m in Sources */,
 				F76AF5C4203041C1004454F4 /* CategroyController.m in Sources */,
 				F76AF5C7203041C5004454F4 /* ComponentViewController.m in Sources */,
 				F76AF5C3203041C1004454F4 /* BViewController.m in Sources */,
 				F76AF5BC2030415D004454F4 /* AppDelegate.m in Sources */,
-				F7AC9A4E2031346E0041E125 /* UITableView+WXEmpty.m in Sources */,
-				F7AC9A492031346E0041E125 /* NSArray+WXSafe.m in Sources */,
 				F76AF5C5203041C1004454F4 /* CViewController.m in Sources */,
-				F7AC9A48203134660041E125 /* WXPopupView.m in Sources */,
 				F76AF5C6203041C1004454F4 /* DViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,6 +579,7 @@
 		};
 		F76AF51A20303E52004454F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E3443653FFDBE1CB640737 /* Pods-WXKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -637,6 +598,7 @@
 		};
 		F76AF51B20303E52004454F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FB99975B4002086FE9129C /* Pods-WXKitDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
