@@ -32,11 +32,6 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WXKit/WXKit.h'
 
-  s.subspec 'Base' do |ss|
-    ss.source_files = 'WXKit/Base/WXKitMacro.h'
-    ss.frameworks = 'UIKit'
-  end
-
   s.subspec 'Categories' do |ss|
      ss.source_files = 'WXKit/Categories/*.{h,m}'
   end
