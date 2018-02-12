@@ -9,7 +9,6 @@
 
 @implementation UIColor (WXExtension)
 
-
 + (UIColor *)colorWithHexString:(NSString *)color
 {
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];

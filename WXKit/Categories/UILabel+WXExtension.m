@@ -8,7 +8,6 @@
 #import "UILabel+WXExtension.h"
 #import <CoreText/CoreText.h>
 
-
 @implementation UILabel (WXExtension)
 
 static char kContentInsetsKey;
