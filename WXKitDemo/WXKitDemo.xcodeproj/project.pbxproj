@@ -109,6 +109,7 @@
 		F7AC9A16203131B30041E125 /* WXAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAudioTool.m; sourceTree = "<group>"; };
 		F7AC9A17203131B30041E125 /* WXUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
 		F7AC9A18203131B30041E125 /* WXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXKit.h; sourceTree = "<group>"; };
+		F7AC9A22203132520041E125 /* WXKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WXKit.podspec; path = ../WXKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +140,7 @@
 		F76AF4E420303E52004454F4 = {
 			isa = PBXGroup;
 			children = (
+				F7AC9A22203132520041E125 /* WXKit.podspec */,
 				F7AC99FB203131B30041E125 /* WXKit */,
 				F76AF4EF20303E52004454F4 /* WXKitDemo */,
 				F76AF50820303E52004454F4 /* WXKitDemoTests */,
