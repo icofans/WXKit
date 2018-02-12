@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WXKit/WXKit.h'
 
+  s.subspec 'Base' do |ss|
+    ss.source_files = 'WXKit/Base/*.{h,m}'
+  end
+
   s.subspec 'Categories' do |ss|
      ss.source_files = 'WXKit/Categories/*.{h,m}'
   end
@@ -43,10 +47,6 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Components' do |ss|
      ss.source_files = 'WXKit/Components/*.{h,m}'
-  end
-
-  s.subspec 'Base' do |ss|
-     ss.source_files = 'WXKit/Base/*.{h,m}'
   end
 
   # s.resource_bundles = {
