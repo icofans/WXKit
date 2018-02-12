@@ -1,17 +1,11 @@
 PODS:
-  - WXKit (0.2.0):
-    - WXKit/Categories (= 0.2.0)
-    - WXKit/Components (= 0.2.0)
-    - WXKit/Utils (= 0.2.0)
-  - WXKit/Categories (0.2.0)
-  - WXKit/Components (0.2.0)
-  - WXKit/Utils (0.2.0)
+  - WXKit (0.2.3)
 
 DEPENDENCIES:
   - WXKit
 
 SPEC CHECKSUMS:
-  WXKit: c1c6e8a1b5104a7e05d05528be74e42bf3701eb7
+  WXKit: b247370dc926c65188ec267a4df2804523d41139
 
 PODFILE CHECKSUM: 81ed3c9a571a7446056b5afbba327a76f92a17d8
 

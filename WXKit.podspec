@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WXKit'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = '自定义工具库'
 
 # This description is used to generate tags and improve search results.
@@ -30,23 +30,28 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WXKit/**/*.{h,m}'
+  # s.source_files = 'WXKit/**/*.{h,m}'
+
+  s.source_files = 'WXKit/WXKit.h'
   s.public_header_files = 'WXKit/**/*.{h}'
 
-  # s.source_files = 'WXKit/WXKit.h'
+  s.subspec 'Base' do |ss|
+    ss.source_files = 'WXKit/Base/*.{h,m}'
+  end
 
-  # s.subspec 'Categories' do |ss|
-  #   ss.source_files = 'WXKit/Categories/*.{h,m}'
-  # end
+  s.subspec 'Categories' do |ss|
+    ss.source_files = 'WXKit/Categories/*.{h,m}'
+    ss.dependency 'WXKit/Base'
+  end
 
-  # s.subspec 'Utils' do |ss|
-  #   ss.source_files = 'WXKit/Utils/*.{h,m}'
-  #   ss.frameworks = 'AVFoundation','AudioToolbox'
-  # end
+  s.subspec 'Utils' do |ss|
+    ss.source_files = 'WXKit/Utils/*.{h,m}'
+    ss.frameworks = 'AVFoundation','AudioToolbox'
+  end
 
-  # s.subspec 'Components' do |ss|
-  #   ss.source_files = 'WXKit/Components/*.{h,m}'
-  # end
+  s.subspec 'Components' do |ss|
+    ss.source_files = 'WXKit/Components/*.{h,m}'
+  end
 
   # s.resource_bundles = {
   #   'WXKit' => ['WXKit/Assets/*.png']
