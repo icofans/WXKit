@@ -15,7 +15,13 @@
 
 #import <objc/runtime.h>
 
-// 运行时方法交换
+/**
+ 运行时方法交换
+
+ @param _class class
+ @param _originSelector 需要交换的方法
+ @param _newSelector 交换后的方法
+ */
 CG_INLINE void wx_hook(Class _class, SEL _originSelector, SEL _newSelector) {
     Method oriMethod = class_getInstanceMethod(_class, _originSelector);
     Method newMethod = class_getInstanceMethod(_class, _newSelector);
