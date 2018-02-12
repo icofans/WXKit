@@ -30,20 +30,23 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WXKit/WXKit.h'
+  s.source_files = 'WXKit/**/*.{h,m}'
+  s.public_header_files = 'WXKit/**/*.{h}'
 
-  s.subspec 'Categories' do |ss|
-     ss.source_files = 'WXKit/Categories/*.{h,m}'
-  end
+  # s.source_files = 'WXKit/WXKit.h'
 
-  s.subspec 'Utils' do |ss|
-     ss.source_files = 'WXKit/Utils/*.{h,m}'
-     ss.frameworks = 'AVFoundation','AudioToolbox'
-  end
+  # s.subspec 'Categories' do |ss|
+  #   ss.source_files = 'WXKit/Categories/*.{h,m}'
+  # end
 
-  s.subspec 'Components' do |ss|
-     ss.source_files = 'WXKit/Components/*.{h,m}'
-  end
+  # s.subspec 'Utils' do |ss|
+  #   ss.source_files = 'WXKit/Utils/*.{h,m}'
+  #   ss.frameworks = 'AVFoundation','AudioToolbox'
+  # end
+
+  # s.subspec 'Components' do |ss|
+  #   ss.source_files = 'WXKit/Components/*.{h,m}'
+  # end
 
   # s.resource_bundles = {
   #   'WXKit' => ['WXKit/Assets/*.png']
