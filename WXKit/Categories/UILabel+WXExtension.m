@@ -7,7 +7,7 @@
 
 #import "UILabel+WXExtension.h"
 #import <CoreText/CoreText.h>
-#import <WXKit/WXKitMacro.h>
+#import "WXKitMacro.h"
 
 @implementation UILabel (WXExtension)
 
