@@ -23,6 +23,15 @@
 		F76AF5C7203041C5004454F4 /* ComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5A92030415C004454F4 /* ComponentViewController.m */; };
 		F76AF5C8203041CA004454F4 /* UtilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5AC2030415C004454F4 /* UtilViewController.m */; };
 		F76AF5D42030458F004454F4 /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76AF5D32030458F004454F4 /* EViewController.m */; };
+		F7AC9A19203131BD0041E125 /* WXAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A16203131B30041E125 /* WXAudioTool.m */; };
+		F7AC9A1A203131BF0041E125 /* WXPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A13203131B30041E125 /* WXPopupView.m */; };
+		F7AC9A1B203131C80041E125 /* NSArray+WXSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A02203131B30041E125 /* NSArray+WXSafe.m */; };
+		F7AC9A1C203131C80041E125 /* UIButton+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A04203131B30041E125 /* UIButton+WXExtension.m */; };
+		F7AC9A1D203131C80041E125 /* UIColor+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A06203131B30041E125 /* UIColor+WXExtension.m */; };
+		F7AC9A1E203131C80041E125 /* UIImage+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A08203131B30041E125 /* UIImage+WXExtension.m */; };
+		F7AC9A1F203131C80041E125 /* UILabel+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A0A203131B30041E125 /* UILabel+WXExtension.m */; };
+		F7AC9A20203131C80041E125 /* UITableView+WXEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A0C203131B30041E125 /* UITableView+WXEmpty.m */; };
+		F7AC9A21203131C80041E125 /* UIViewController+WXMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AC9A0E203131B30041E125 /* UIViewController+WXMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,30 +85,30 @@
 		F76AF5D22030458F004454F4 /* EViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
 		F76AF5D32030458F004454F4 /* EViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
 		F76AF5D520304737004454F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		F7AC99DF20312A230041E125 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		F7AC99E120312A230041E125 /* WXKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXKitMacro.h; sourceTree = "<group>"; };
-		F7AC99E320312A230041E125 /* NSArray+WXSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+WXSafe.h"; sourceTree = "<group>"; };
-		F7AC99E420312A230041E125 /* NSArray+WXSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WXSafe.m"; sourceTree = "<group>"; };
-		F7AC99E520312A230041E125 /* UIButton+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXExtension.h"; sourceTree = "<group>"; };
-		F7AC99E620312A230041E125 /* UIButton+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXExtension.m"; sourceTree = "<group>"; };
-		F7AC99E720312A230041E125 /* UIColor+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXExtension.h"; sourceTree = "<group>"; };
-		F7AC99E820312A230041E125 /* UIColor+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXExtension.m"; sourceTree = "<group>"; };
-		F7AC99E920312A230041E125 /* UIImage+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WXExtension.h"; sourceTree = "<group>"; };
-		F7AC99EA20312A230041E125 /* UIImage+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WXExtension.m"; sourceTree = "<group>"; };
-		F7AC99EB20312A230041E125 /* UILabel+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WXExtension.h"; sourceTree = "<group>"; };
-		F7AC99EC20312A230041E125 /* UILabel+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WXExtension.m"; sourceTree = "<group>"; };
-		F7AC99ED20312A230041E125 /* UITableView+WXEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+WXEmpty.h"; sourceTree = "<group>"; };
-		F7AC99EE20312A230041E125 /* UITableView+WXEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WXEmpty.m"; sourceTree = "<group>"; };
-		F7AC99EF20312A230041E125 /* UIViewController+WXMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXMediator.h"; sourceTree = "<group>"; };
-		F7AC99F020312A230041E125 /* UIViewController+WXMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXMediator.m"; sourceTree = "<group>"; };
-		F7AC99F120312A230041E125 /* WXCategroy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCategroy.h; sourceTree = "<group>"; };
-		F7AC99F320312A230041E125 /* WXComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
-		F7AC99F420312A230041E125 /* WXPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXPopupView.h; sourceTree = "<group>"; };
-		F7AC99F520312A230041E125 /* WXPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXPopupView.m; sourceTree = "<group>"; };
-		F7AC99F720312A230041E125 /* WXAudioTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAudioTool.h; sourceTree = "<group>"; };
-		F7AC99F820312A230041E125 /* WXAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAudioTool.m; sourceTree = "<group>"; };
-		F7AC99F920312A230041E125 /* WXUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
-		F7AC99FA20312A230041E125 /* WXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXKit.h; sourceTree = "<group>"; };
+		F7AC99FD203131B30041E125 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F7AC99FF203131B30041E125 /* WXKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXKitMacro.h; sourceTree = "<group>"; };
+		F7AC9A01203131B30041E125 /* NSArray+WXSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+WXSafe.h"; sourceTree = "<group>"; };
+		F7AC9A02203131B30041E125 /* NSArray+WXSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WXSafe.m"; sourceTree = "<group>"; };
+		F7AC9A03203131B30041E125 /* UIButton+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXExtension.h"; sourceTree = "<group>"; };
+		F7AC9A04203131B30041E125 /* UIButton+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXExtension.m"; sourceTree = "<group>"; };
+		F7AC9A05203131B30041E125 /* UIColor+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WXExtension.h"; sourceTree = "<group>"; };
+		F7AC9A06203131B30041E125 /* UIColor+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WXExtension.m"; sourceTree = "<group>"; };
+		F7AC9A07203131B30041E125 /* UIImage+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WXExtension.h"; sourceTree = "<group>"; };
+		F7AC9A08203131B30041E125 /* UIImage+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WXExtension.m"; sourceTree = "<group>"; };
+		F7AC9A09203131B30041E125 /* UILabel+WXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WXExtension.h"; sourceTree = "<group>"; };
+		F7AC9A0A203131B30041E125 /* UILabel+WXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WXExtension.m"; sourceTree = "<group>"; };
+		F7AC9A0B203131B30041E125 /* UITableView+WXEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+WXEmpty.h"; sourceTree = "<group>"; };
+		F7AC9A0C203131B30041E125 /* UITableView+WXEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WXEmpty.m"; sourceTree = "<group>"; };
+		F7AC9A0D203131B30041E125 /* UIViewController+WXMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXMediator.h"; sourceTree = "<group>"; };
+		F7AC9A0E203131B30041E125 /* UIViewController+WXMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXMediator.m"; sourceTree = "<group>"; };
+		F7AC9A0F203131B30041E125 /* WXCategroy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCategroy.h; sourceTree = "<group>"; };
+		F7AC9A11203131B30041E125 /* WXComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
+		F7AC9A12203131B30041E125 /* WXPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXPopupView.h; sourceTree = "<group>"; };
+		F7AC9A13203131B30041E125 /* WXPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXPopupView.m; sourceTree = "<group>"; };
+		F7AC9A15203131B30041E125 /* WXAudioTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAudioTool.h; sourceTree = "<group>"; };
+		F7AC9A16203131B30041E125 /* WXAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAudioTool.m; sourceTree = "<group>"; };
+		F7AC9A17203131B30041E125 /* WXUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
+		F7AC9A18203131B30041E125 /* WXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +139,7 @@
 		F76AF4E420303E52004454F4 = {
 			isa = PBXGroup;
 			children = (
-				F7AC99DD20312A230041E125 /* WXKit */,
+				F7AC99FB203131B30041E125 /* WXKit */,
 				F76AF4EF20303E52004454F4 /* WXKitDemo */,
 				F76AF50820303E52004454F4 /* WXKitDemoTests */,
 				F76AF51320303E52004454F4 /* WXKitDemoUITests */,
@@ -223,74 +232,74 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		F7AC99DD20312A230041E125 /* WXKit */ = {
+		F7AC99FB203131B30041E125 /* WXKit */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC99DE20312A230041E125 /* Assets */,
-				F7AC99E020312A230041E125 /* Base */,
-				F7AC99E220312A230041E125 /* Categories */,
-				F7AC99F220312A230041E125 /* Components */,
-				F7AC99F620312A230041E125 /* Utils */,
-				F7AC99FA20312A230041E125 /* WXKit.h */,
+				F7AC99FC203131B30041E125 /* Assets */,
+				F7AC99FE203131B30041E125 /* Base */,
+				F7AC9A00203131B30041E125 /* Categories */,
+				F7AC9A10203131B30041E125 /* Components */,
+				F7AC9A14203131B30041E125 /* Utils */,
+				F7AC9A18203131B30041E125 /* WXKit.h */,
 			);
 			name = WXKit;
 			path = ../WXKit;
 			sourceTree = "<group>";
 		};
-		F7AC99DE20312A230041E125 /* Assets */ = {
+		F7AC99FC203131B30041E125 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC99DF20312A230041E125 /* .gitkeep */,
+				F7AC99FD203131B30041E125 /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		F7AC99E020312A230041E125 /* Base */ = {
+		F7AC99FE203131B30041E125 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC99E120312A230041E125 /* WXKitMacro.h */,
+				F7AC99FF203131B30041E125 /* WXKitMacro.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		F7AC99E220312A230041E125 /* Categories */ = {
+		F7AC9A00203131B30041E125 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC99E320312A230041E125 /* NSArray+WXSafe.h */,
-				F7AC99E420312A230041E125 /* NSArray+WXSafe.m */,
-				F7AC99E520312A230041E125 /* UIButton+WXExtension.h */,
-				F7AC99E620312A230041E125 /* UIButton+WXExtension.m */,
-				F7AC99E720312A230041E125 /* UIColor+WXExtension.h */,
-				F7AC99E820312A230041E125 /* UIColor+WXExtension.m */,
-				F7AC99E920312A230041E125 /* UIImage+WXExtension.h */,
-				F7AC99EA20312A230041E125 /* UIImage+WXExtension.m */,
-				F7AC99EB20312A230041E125 /* UILabel+WXExtension.h */,
-				F7AC99EC20312A230041E125 /* UILabel+WXExtension.m */,
-				F7AC99ED20312A230041E125 /* UITableView+WXEmpty.h */,
-				F7AC99EE20312A230041E125 /* UITableView+WXEmpty.m */,
-				F7AC99EF20312A230041E125 /* UIViewController+WXMediator.h */,
-				F7AC99F020312A230041E125 /* UIViewController+WXMediator.m */,
-				F7AC99F120312A230041E125 /* WXCategroy.h */,
+				F7AC9A01203131B30041E125 /* NSArray+WXSafe.h */,
+				F7AC9A02203131B30041E125 /* NSArray+WXSafe.m */,
+				F7AC9A03203131B30041E125 /* UIButton+WXExtension.h */,
+				F7AC9A04203131B30041E125 /* UIButton+WXExtension.m */,
+				F7AC9A05203131B30041E125 /* UIColor+WXExtension.h */,
+				F7AC9A06203131B30041E125 /* UIColor+WXExtension.m */,
+				F7AC9A07203131B30041E125 /* UIImage+WXExtension.h */,
+				F7AC9A08203131B30041E125 /* UIImage+WXExtension.m */,
+				F7AC9A09203131B30041E125 /* UILabel+WXExtension.h */,
+				F7AC9A0A203131B30041E125 /* UILabel+WXExtension.m */,
+				F7AC9A0B203131B30041E125 /* UITableView+WXEmpty.h */,
+				F7AC9A0C203131B30041E125 /* UITableView+WXEmpty.m */,
+				F7AC9A0D203131B30041E125 /* UIViewController+WXMediator.h */,
+				F7AC9A0E203131B30041E125 /* UIViewController+WXMediator.m */,
+				F7AC9A0F203131B30041E125 /* WXCategroy.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		F7AC99F220312A230041E125 /* Components */ = {
+		F7AC9A10203131B30041E125 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC99F320312A230041E125 /* WXComponent.h */,
-				F7AC99F420312A230041E125 /* WXPopupView.h */,
-				F7AC99F520312A230041E125 /* WXPopupView.m */,
+				F7AC9A11203131B30041E125 /* WXComponent.h */,
+				F7AC9A12203131B30041E125 /* WXPopupView.h */,
+				F7AC9A13203131B30041E125 /* WXPopupView.m */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		F7AC99F620312A230041E125 /* Utils */ = {
+		F7AC9A14203131B30041E125 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC99F720312A230041E125 /* WXAudioTool.h */,
-				F7AC99F820312A230041E125 /* WXAudioTool.m */,
-				F7AC99F920312A230041E125 /* WXUtil.h */,
+				F7AC9A15203131B30041E125 /* WXAudioTool.h */,
+				F7AC9A16203131B30041E125 /* WXAudioTool.m */,
+				F7AC9A17203131B30041E125 /* WXUtil.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -429,15 +438,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76AF5C2203041C1004454F4 /* AViewController.m in Sources */,
+				F7AC9A1C203131C80041E125 /* UIButton+WXExtension.m in Sources */,
 				F76AF5BB2030415D004454F4 /* ViewController.m in Sources */,
 				F76AF5D42030458F004454F4 /* EViewController.m in Sources */,
+				F7AC9A21203131C80041E125 /* UIViewController+WXMediator.m in Sources */,
+				F7AC9A1D203131C80041E125 /* UIColor+WXExtension.m in Sources */,
+				F7AC9A1E203131C80041E125 /* UIImage+WXExtension.m in Sources */,
+				F7AC9A19203131BD0041E125 /* WXAudioTool.m in Sources */,
 				F76AF5C8203041CA004454F4 /* UtilViewController.m in Sources */,
 				F76AF50020303E52004454F4 /* main.m in Sources */,
+				F7AC9A1F203131C80041E125 /* UILabel+WXExtension.m in Sources */,
 				F76AF5C4203041C1004454F4 /* CategroyController.m in Sources */,
 				F76AF5C7203041C5004454F4 /* ComponentViewController.m in Sources */,
 				F76AF5C3203041C1004454F4 /* BViewController.m in Sources */,
 				F76AF5BC2030415D004454F4 /* AppDelegate.m in Sources */,
+				F7AC9A20203131C80041E125 /* UITableView+WXEmpty.m in Sources */,
+				F7AC9A1B203131C80041E125 /* NSArray+WXSafe.m in Sources */,
 				F76AF5C5203041C1004454F4 /* CViewController.m in Sources */,
+				F7AC9A1A203131BF0041E125 /* WXPopupView.m in Sources */,
 				F76AF5C6203041C1004454F4 /* DViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,7 +624,7 @@
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WXKitDemo/PrefixHeader.pch";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/WXkit";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../";
 				INFOPLIST_FILE = WXKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icofans.WXKitDemo;
@@ -624,7 +642,7 @@
 				DEVELOPMENT_TEAM = X8GHMEWAMM;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WXKitDemo/PrefixHeader.pch";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/WXkit";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../";
 				INFOPLIST_FILE = WXKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icofans.WXKitDemo;
