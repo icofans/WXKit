@@ -33,7 +33,6 @@ TODO: Add long description of the pod here.
   # s.source_files = 'WXKit/**/*.{h,m}'
 
   s.source_files = 'WXKit/WXKit.h'
-  s.public_header_files = 'WXKit/**/*.{h}'
 
   s.subspec 'Base' do |ss|
     ss.source_files = 'WXKit/Base/*.{h,m}'
