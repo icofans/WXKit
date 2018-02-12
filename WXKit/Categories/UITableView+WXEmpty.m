@@ -6,7 +6,6 @@
 //
 
 #import "UITableView+WXEmpty.h"
-#import "WXKitMacro.h"
 
 static char WXShowErrorViewKey;
 static char WXShowLoadViewKey;

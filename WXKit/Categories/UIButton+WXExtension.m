@@ -6,7 +6,6 @@
 //
 
 #import "UIButton+WXExtension.h"
-#import "WXKitMacro.h"
 
 #define wx_objc_setter(key,value) objc_setAssociatedObject(self, key, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC)
 #define wx_objc_getter(key) objc_getAssociatedObject(self, key)
