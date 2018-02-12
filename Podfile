@@ -3,6 +3,6 @@
 
 target 'WXKitDemo' do
 
-  pod ‘WXKit’, :path => './'
+  pod 'WXKit'
  
 end

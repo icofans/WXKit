@@ -1,1 +1,1 @@
-../../../../WXKit/Categories/UILabel+WXExtension.h
+../../../WXKit/WXKit/Categories/UILabel+WXExtension.h

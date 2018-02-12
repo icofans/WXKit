@@ -1,1 +1,1 @@
-../../../../WXKit/Categories/UIImage+WXExtension.h
+../../../WXKit/WXKit/Categories/UIImage+WXExtension.h

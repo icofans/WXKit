@@ -1,1 +1,1 @@
-../../../../WXKit/Categories/UIColor+WXExtension.h
+../../../WXKit/WXKit/Categories/UIColor+WXExtension.h

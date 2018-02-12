@@ -1,1 +1,1 @@
-../../../../WXKit/Categories/UIViewController+WXMediator.h
+../../../WXKit/WXKit/Categories/UIViewController+WXMediator.h

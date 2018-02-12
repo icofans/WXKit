@@ -1,1 +1,1 @@
-../../../../WXKit/WXKit.h
+../../../WXKit/WXKit/WXKit.h

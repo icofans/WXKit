@@ -1,1 +1,1 @@
-../../../../WXKit/Utils/WXUtil.h
+../../../WXKit/WXKit/Utils/WXUtil.h
