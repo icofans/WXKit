@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WXKit'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = '自定义工具库'
 
 # This description is used to generate tags and improve search results.
@@ -43,8 +43,8 @@ TODO: Add long description of the pod here.
     ss.dependency 'WXKit/Base'
   end
 
-  s.subspec 'Utils' do |ss|
-    ss.source_files = 'WXKit/Utils/*.{h,m}'
+  s.subspec 'Tools' do |ss|
+    ss.source_files = 'WXKit/Tools/*.{h,m}'
     ss.frameworks = 'AVFoundation','AudioToolbox'
   end
 
