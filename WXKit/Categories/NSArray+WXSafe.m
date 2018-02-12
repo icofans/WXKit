@@ -6,7 +6,7 @@
 //
 
 #import "NSArray+WXSafe.h"
-#import "WXKitMacro.h"
+#import <WXKit/WXKitMacro.h>
 
 @implementation NSArray (WXSafe)
 
