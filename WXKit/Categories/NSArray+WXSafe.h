@@ -1,6 +1,6 @@
 //
 //  NSArray+WXSafe.h
-//  Pods-WXKitDemo
+//  WXKit
 //
 //  Created by 王家强 on 2018/2/11.
 //

@@ -12,3 +12,12 @@
 #import "UITableView+WXEmpty.h"
 #import "UIViewController+WXMediator.h"
 #import "NSArray+WXSafe.h"
+#import "NSDateFormatter+WXCategory.h"
+#import "NSMutableAttributedString+WXAttribute.h"
+#import "NSTimer+WXCategory.h"
+#import "UIApplication+WXCategory.h"
+#import "UIButton+WXCategory.h"
+#import "UIDevice+WXCategory.h"
+#import "UIScrollView+WXCategory.h"
+#import "UIViewController+WXCategory.h"
+

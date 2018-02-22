@@ -1,6 +1,6 @@
 //
 //  WXUtil.h
-//  Pods
+//  WXKit
 //
 //  Created by 王家强 on 2018/2/1.
 //

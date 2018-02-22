@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,6 +36,14 @@
 		DF46DDC4D0D7F09C48DCA0BB0FD74C73 /* UILabel+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 572557D0AFA37208CBF1999349D38B54 /* UILabel+WXExtension.m */; };
 		EA996270C3FD29B96B85E2978046298C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7857BC26A788125ADE78BC7A63A21A5B /* AVFoundation.framework */; };
 		F5270BF537459A88ABDEDAC82DDDC6E5 /* UIColor+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FC0415A9187AA8B72202313040AAC /* UIColor+WXExtension.m */; };
+		F729D82D203E99080061910C /* NSDateFormatter+WXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F729D82C203E99080061910C /* NSDateFormatter+WXCategory.m */; };
+		F729D833203E9A0A0061910C /* NSMutableAttributedString+WXAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F729D832203E9A0A0061910C /* NSMutableAttributedString+WXAttribute.m */; };
+		F729D838203E9B5E0061910C /* NSTimer+WXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F729D837203E9B5E0061910C /* NSTimer+WXCategory.m */; };
+		F729D83B203E9BCE0061910C /* UIApplication+WXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F729D83A203E9BCE0061910C /* UIApplication+WXCategory.m */; };
+		F729D83E203E9C230061910C /* UIButton+WXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F729D83D203E9C230061910C /* UIButton+WXCategory.m */; };
+		F729D841203E9CF40061910C /* UIDevice+WXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F729D840203E9CF40061910C /* UIDevice+WXCategory.m */; };
+		F729D844203E9D6D0061910C /* UIScrollView+WXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F729D843203E9D6D0061910C /* UIScrollView+WXCategory.m */; };
+		F729D847203E9DCB0061910C /* UIViewController+WXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F729D846203E9DCB0061910C /* UIViewController+WXCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +64,7 @@
 		36E170186D9AF0BFFAAC2DFEC5206F91 /* UIViewController+WXMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WXMediator.m"; path = "WXKit/Categories/UIViewController+WXMediator.m"; sourceTree = "<group>"; };
 		3E07897D24F3507CE821121F3DD6E960 /* Pods-WXKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		47206F5082F1DD90C31385EDF900C02C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		49621D5482618265D6A61F8839D0DADD /* libPods-WXKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WXKitDemo.a"; path = "libPods-WXKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49621D5482618265D6A61F8839D0DADD /* libPods-WXKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD9C8EE75E2D59D0794936D12CF66DA /* WXCategroy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXCategroy.h; path = WXKit/Categories/WXCategroy.h; sourceTree = "<group>"; };
 		5098317D126A8E009D71F192013E433C /* UIColor+WXExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+WXExtension.h"; path = "WXKit/Categories/UIColor+WXExtension.h"; sourceTree = "<group>"; };
 		572557D0AFA37208CBF1999349D38B54 /* UILabel+WXExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+WXExtension.m"; path = "WXKit/Categories/UILabel+WXExtension.m"; sourceTree = "<group>"; };
@@ -72,7 +80,7 @@
 		830ACDC3D29E70C7156DABA400317784 /* UIImage+WXExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+WXExtension.h"; path = "WXKit/Categories/UIImage+WXExtension.h"; sourceTree = "<group>"; };
 		8A7FC0415A9187AA8B72202313040AAC /* UIColor+WXExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+WXExtension.m"; path = "WXKit/Categories/UIColor+WXExtension.m"; sourceTree = "<group>"; };
 		8C7FFB6977EB33F5938D509AFDCA7B94 /* Pods-WXKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXKitDemo-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C6929E1C08A255E382280D78F8FFC5E /* WXKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXKit.h; path = WXKit/WXKit.h; sourceTree = "<group>"; };
 		A0DE54AA259E1CBCFBDA8CA65207E48A /* WXKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXKit-prefix.pch"; sourceTree = "<group>"; };
 		A16F81F01313769242662117CDB1F576 /* WXPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXPopupView.m; path = WXKit/Components/WXPopupView.m; sourceTree = "<group>"; };
@@ -84,7 +92,23 @@
 		CCD964A943DD21C6A295808CAB0CEE92 /* Pods-WXKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CE739F488CE4BA2F9F7F23C0F9858C89 /* WXKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXKit-dummy.m"; sourceTree = "<group>"; };
 		E93BB200D4674B535181EF7400C7D436 /* UIButton+WXExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WXExtension.h"; path = "WXKit/Categories/UIButton+WXExtension.h"; sourceTree = "<group>"; };
-		E9FA996F0689ADCBF412BD4F2578423D /* libWXKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWXKit.a; path = libWXKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FA996F0689ADCBF412BD4F2578423D /* libWXKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWXKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F729D82B203E99080061910C /* NSDateFormatter+WXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+WXCategory.h"; sourceTree = "<group>"; };
+		F729D82C203E99080061910C /* NSDateFormatter+WXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+WXCategory.m"; sourceTree = "<group>"; };
+		F729D831203E9A0A0061910C /* NSMutableAttributedString+WXAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+WXAttribute.h"; sourceTree = "<group>"; };
+		F729D832203E9A0A0061910C /* NSMutableAttributedString+WXAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+WXAttribute.m"; sourceTree = "<group>"; };
+		F729D836203E9B5E0061910C /* NSTimer+WXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WXCategory.h"; sourceTree = "<group>"; };
+		F729D837203E9B5E0061910C /* NSTimer+WXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WXCategory.m"; sourceTree = "<group>"; };
+		F729D839203E9BCE0061910C /* UIApplication+WXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+WXCategory.h"; sourceTree = "<group>"; };
+		F729D83A203E9BCE0061910C /* UIApplication+WXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+WXCategory.m"; sourceTree = "<group>"; };
+		F729D83C203E9C230061910C /* UIButton+WXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXCategory.h"; sourceTree = "<group>"; };
+		F729D83D203E9C230061910C /* UIButton+WXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXCategory.m"; sourceTree = "<group>"; };
+		F729D83F203E9CF40061910C /* UIDevice+WXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+WXCategory.h"; sourceTree = "<group>"; };
+		F729D840203E9CF40061910C /* UIDevice+WXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+WXCategory.m"; sourceTree = "<group>"; };
+		F729D842203E9D6D0061910C /* UIScrollView+WXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WXCategory.h"; sourceTree = "<group>"; };
+		F729D843203E9D6D0061910C /* UIScrollView+WXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WXCategory.m"; sourceTree = "<group>"; };
+		F729D845203E9DCB0061910C /* UIViewController+WXCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXCategory.h"; sourceTree = "<group>"; };
+		F729D846203E9DCB0061910C /* UIViewController+WXCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXCategory.m"; sourceTree = "<group>"; };
 		F8F999FCDF2EA9E76AC52156EE7896C9 /* NSArray+WXSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WXSafe.h"; path = "WXKit/Categories/NSArray+WXSafe.h"; sourceTree = "<group>"; };
 		FB56EA124D1ECE271EF22869589BE59D /* Pods-WXKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		FCADB2A464AF206E1844959E30889EEB /* Pods-WXKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -168,7 +192,6 @@
 				2B1A34BC97B0F5C76AF983672C745B2E /* Support Files */,
 				F85D18EC35E084B88005C68A7EB8F4EF /* Tools */,
 			);
-			name = WXKit;
 			path = WXKit;
 			sourceTree = "<group>";
 		};
@@ -242,6 +265,22 @@
 				672399FEC5ADCC6D1C1A7DC4FE71F746 /* UIViewController+WXMediator.h */,
 				36E170186D9AF0BFFAAC2DFEC5206F91 /* UIViewController+WXMediator.m */,
 				4CD9C8EE75E2D59D0794936D12CF66DA /* WXCategroy.h */,
+				F729D82B203E99080061910C /* NSDateFormatter+WXCategory.h */,
+				F729D82C203E99080061910C /* NSDateFormatter+WXCategory.m */,
+				F729D831203E9A0A0061910C /* NSMutableAttributedString+WXAttribute.h */,
+				F729D832203E9A0A0061910C /* NSMutableAttributedString+WXAttribute.m */,
+				F729D836203E9B5E0061910C /* NSTimer+WXCategory.h */,
+				F729D837203E9B5E0061910C /* NSTimer+WXCategory.m */,
+				F729D839203E9BCE0061910C /* UIApplication+WXCategory.h */,
+				F729D83A203E9BCE0061910C /* UIApplication+WXCategory.m */,
+				F729D83C203E9C230061910C /* UIButton+WXCategory.h */,
+				F729D83D203E9C230061910C /* UIButton+WXCategory.m */,
+				F729D83F203E9CF40061910C /* UIDevice+WXCategory.h */,
+				F729D840203E9CF40061910C /* UIDevice+WXCategory.m */,
+				F729D842203E9D6D0061910C /* UIScrollView+WXCategory.h */,
+				F729D843203E9D6D0061910C /* UIScrollView+WXCategory.m */,
+				F729D845203E9DCB0061910C /* UIViewController+WXCategory.h */,
+				F729D846203E9DCB0061910C /* UIViewController+WXCategory.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -349,7 +388,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F729D847203E9DCB0061910C /* UIViewController+WXCategory.m in Sources */,
+				F729D82D203E99080061910C /* NSDateFormatter+WXCategory.m in Sources */,
+				F729D838203E9B5E0061910C /* NSTimer+WXCategory.m in Sources */,
+				F729D83E203E9C230061910C /* UIButton+WXCategory.m in Sources */,
+				F729D833203E9A0A0061910C /* NSMutableAttributedString+WXAttribute.m in Sources */,
+				F729D844203E9D6D0061910C /* UIScrollView+WXCategory.m in Sources */,
+				F729D841203E9CF40061910C /* UIDevice+WXCategory.m in Sources */,
 				A3CD142B50223B074D20B2C6F75BA454 /* Pods-WXKitDemo-dummy.m in Sources */,
+				F729D83B203E9BCE0061910C /* UIApplication+WXCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
